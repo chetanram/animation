@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">DayBook</string>
+    <string name="signup">Sign Up</string>
+    <string name="signin">Sign In</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_main">SplashMain</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="email">Email address</string>
+    <string name="password">Password</string>
+    <string name="txt_create">Don\'t have an account? Create your Account here</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="edFname">First name</string>
+    <string name="edLname">Last name</string>
+    <string name="sign_email">Email address</string>
+    <string name="sign_password">Password</string>
+    <string name="Loing_btn_signin">Sign In</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="title_activity_dashboard">DayBook</string>
+    <string name="title_activity_calender">Calender</string>
+    <string name="add_event_txt">Done</string>
+    <string name="title_activity_add_event">Add Event</string>
+    <string name="event_eName">Event Name</string>
+    <string name="event_eDis">Event Description</string>
+    <string name="eSdate">Start Date</string>
+    <string name="eEdate">End Date</string>
+    <string name="eStime">Start Time</string>
+    <string name="eEtime">End Time</string>
+    <string name="forgotpassword">Forgot Password</string>
+
+    <string name="eRepeat">Repeat</string>
+    <string name="eAlert">Alert</string>
+    <string name="eAssign_Event_To">Assign event to</string>
+    <string name="ePriorities">Priorities</string>
+    <string name="txt_high_priority">High</string>
+    <string name="txt_low_priority">Low</string>
+    <string name="txt_cal_btn_filter">FILTER EVENT</string>
+    <string name="txt_cal_btn_imp_cal">IMPORT CALENDER</string>
+    <string name="title_activity_shopping">Shopping</string>
+    <string name="title_activity_add_category">Add category</string>
+    <string name="add_cat_dialog_txt">Type an Category name</string>
+    <string name="no_item">No items Availabel</string>
+    <string name="social_sharing_text" type="id">DayBook –try this organizer with your family or
+        friends, and never miss an important event.
+    </string>
+
+    //SPinner Array For ADD_Event_Repeat
+    <string-array name="Repeat_Items">
+        <item>Never</item>
+        <item>Every Day</item>
+        <item>Every Week</item>
+        <item>Every 2 Weeks</item>
+        <item>Every Year</item>
+    </string-array>
+
+    //SPinner Array For ADD_Event_Alert
+    <string-array name="Alert_Items">
+        <item>Never</item>
+        <item>At time of event</item>
+        <item>5 minutes before</item>
+        <item>15 minutes before</item>
+        <item>30 minutes before</item>
+        <item>1 hour before</item>
+        <item>2 hours before</item>
+        <item>1 day before</item>
+        <item>2 days before</item>
+        <item>1 week before</item>
+    </string-array>
+
+
+    //SPinner Array For ADD_Event Assign_To
+    <string-array name="Assign_Items">
+        <item>Abc</item>
+        <item>Abc</item>
+    </string-array>
+    <string-array name="recurring_income_item">
+
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Bi-Weekly</item>
+        <item>Twice a Month</item>
+        <item>Every 4 week</item>
+        <item>Monthly</item>
+        <item>Every 2 Month</item>
+        <item>Quarterly</item>
+        <item>Every 6 month</item>
+        <item>Yearly</item>
+    </string-array>
+    <string name="title_activity_setting">Setting</string>
+    <string name="gnrl_setting">General Setting</string>
+    <string name="setting_fnames">Family\'s Name\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020:</string>
+    <string name="invite_email_txt_setting">Invite member via mail</string>
+    <string name="setting_delete_member">Delete Members</string>
+    <string name="setting_changePW">Change Password</string>
+    <string name="setting_noti_txt">Notifications</string>
+    <string name="social_setting_txt">Social Sharing Setting</string>
+    <string name="sharing_fb_txt">Facebook</string>
+    <string name="sharing_twitter_txt">Twitter</string>
+    <string name="sharing_email_txt">Email</string>
+    <string name="setting_restore">Restore</string>
+    <string name="add_sub_cat_dialog_txt">Type an item name</string>
+    <string name="add_sub_cat_dialog_price">Price</string>
+    <string name="title_activity_delete_category">Delete Category</string>
+    <string name="ed_cat_txt">Enter an  category</string>
+    <string name="ed_sub_cat_txt">Enter an  category</string>
+    <string name="title_activity_Budget">Budget</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_budget">Budget</string>
+    <string name="txt_add_income_category">Add Income Category</string>
+    <string name="add_income_source">Add Income Source</string>
+    <string name="add_expense_source">Add Expense Source</string>
+
+
+    <string name="title_customdialog">Various Custom Dialogs</string>
+    <string name="dl_simple_dialog">Simple Custom Dialog</string>
+    <string name="dl_border_dialog">Custom Dialog with Border</string>
+    <string name="dl_roundcorner_dialog">Custom Dialog with Round Corner</string>
+    <string name="dl_roundcorner_border_dialog">Custom Dialog with Round Corner &amp; Border</string>
+    <string name="title_text">Add Title Text</string>
+    <string name="message">Alert Message...</string>
+    <string name="txt_unable_to_connect">Sorry, We are unable to connect with server. Please try again later.</string>
+    <string name="please_wait_txt">Please wait</string>
+    <string name="txt_alert_title">Alert</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_are_you_sure_logout">Are you sure?</string>
+    <string name="txt_logout">Logout</string>
+    <string name="txt_yes">Yes</string>
+    <string name="txt_no">No</string>
+    <string name="txt_unable_to_fetch_profile">Sorry we are unable to fetch your details. Please try again later.</string>
+    <string name="title_dialog_change_password">Change Password</string>
+    <string name="enter_current_password">Enter current password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="re_enter_new_password">Re-enter new password</string>
+    <string name="txt_register">Register</string>
+    <string name="txt_changepass">Change Password</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_shopping">Shopping</string>
+    <string name="txt_add_category">Add Category</string>
+    <string name="txt_error">Error</string>
+    <string name="txt_income">Income</string>
+    <string name="type_an_income_category">Type an income category</string>
+    <string name="txt_add_expense_category">Add Expense Category</string>
+    <string name="type_an_expense_category">Type an expense category</string>
+    <string name="txt_expense">Expense</string>
+    <string name="search_hint">search</string>
+    <string name="txt_budget">Budget</string>
+    <string name="app_id">1676950879219331</string>
+    <string name="share_via_facebook">Share Via Facebook</string>
+    <string name="whats_your_mind">What\'s on your mind?</string>
+
+    <string name="twitter_callback">https://twitter.com</string>
+    <string name="twitter_consumer_key">JH3qDIZlkwJOXzhUSSK85gXTJ</string>
+    <string name="twitter_consumer_secret">6TP0vLvReP2pEgz2PWahy1axRAWOrSRhzbBJGWENKtGezZs9iQ</string>
+    <string name="twitter_oauth_verifier">oauth_verifier</string>
+    <string name="title_activity_login_with_twitter">LoginWithTwitter</string>
+    <string name="login_instructions">Login to twiter</string>
+    <string name="share_instructions">Enter share message</string>
+    <string name="btn_login">Login to Twitter</string>
+    <string name="btn_share">Share</string>
+    <string name="hello">Hello</string>
+    <string name="share_via_twitter">Share Via Twitter</string>
+    <string name="twitter_login_webview">Login with twitter</string>
+    <string name="txt_event">Add Event</string>
+    <string name="txt_cal">Calender</string>
+    <string name="enter_email">Enter email address</string>
+    <string name="send">Send</string>
+    <string name="title_activity_event_detail">Calender</string>
+    <string name="title_activity_summary_report">Summary Report</string>
+    <string name="export_excel">Export to Excel</string>
+    <string name="menu_delete">delete</string>
+    <string name="title_activity_edit_event">Edit Event</string>
+    <string name="txt_cal_btn_filter1">Filter Event</string>
+    <string name="set">Set</string>
+    <string name="txt_select_user">Select User</string>
+    <string name="shared_password">Shared password</string>
+    <string name="purchase">Purchase</string>
+
+</resources>

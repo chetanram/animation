@@ -1,0 +1,42 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="image_width">@dimen/_100sdp</dimen>
+    <dimen name="toolbar_title_size">@dimen/_20sdp</dimen>
+    <dimen name="toolbar_title_margintop">@dimen/_12sdp</dimen>
+    <dimen name="toolbar_title_paddingleft">@dimen/_40sdp</dimen>
+
+
+    <!--calender-->
+
+    <!-- dateTitleLayout -->
+    <dimen name="dateTitleTextSize">@dimen/_18sdp</dimen>
+    <!--<dimen name="dateTitlePaddingBottom">5dp</dimen>-->
+    <!-- weekLayout -->
+    <dimen name="dayOfWeekTextSize">@dimen/_16sdp</dimen>
+    <!-- weekRowLayout -->
+    <!--<dimen name="week_bottom_padding">5dp</dimen>-->
+    <!-- Day of the month -->
+    <dimen name="underline_weight">@dimen/_6sdp</dimen>
+    <dimen name="underline_height">@dimen/_2sdp</dimen>
+    <dimen name="day_of_month_background_size">@dimen/_32sdp</dimen>
+    <dimen name="dayOfMonthIndicatorSize">@dimen/_3sdp</dimen>
+    <dimen name="dayOfMonthImageMarginTop">@dimen/_20sdp</dimen>
+    <dimen name="padding">@dimen/_8sdp</dimen>
+
+
+    <!--New dimens-->
+    <dimen name="calendarTitlePaddingTop">@dimen/_8sdp</dimen>
+    <dimen name="calendarTitlePaddingBottom">@dimen/_8sdp</dimen>
+    <dimen name="weekTitlePaddingTop">@dimen/_8sdp</dimen>
+    <dimen name="weekTitlePaddingBottom">@dimen/_8sdp</dimen>
+    <dimen name="minDayCellHeight">@dimen/_35sdp</dimen>
+
+    <dimen name="progress_dialog_size">@dimen/_30sdp</dimen>
+
+</resources>

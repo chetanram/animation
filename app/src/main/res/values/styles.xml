@@ -1,0 +1,348 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!--toolbar-->
+    <style name="toolbar_title">
+        <item name="android:textColor">@color/white</item>
+
+        <item name="android:textSize">@dimen/toolbar_title_size</item>
+    </style>
+    <!--img_logo-->
+    <style name="login_logo">
+        <item name="android:layout_width">@dimen/_100sdp</item>
+        <item name="android:layout_height">@dimen/_100sdp</item>
+
+    </style>
+    <!--ed_email-->
+    <style name="editEmail">
+        <item name="android:layout_width">@dimen/_250sdp</item>
+        <item name="android:layout_height">@dimen/_35sdp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/edit_text_color</item>
+        <!--<item name="android:drawableLeft">@drawable/ic_email</item>-->
+        <item name="android:drawablePadding">@dimen/_15sdp</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">@dimen/_7sdp</item>
+
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+    <!--edPassword-->
+    <style name="editPassword">
+        <item name="android:layout_width">@dimen/_250sdp</item>
+        <item name="android:layout_height">@dimen/_35sdp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/edit_text_color</item>
+        <!--<item name="android:drawableLeft">@drawable/ic_lock</item>-->
+        <item name="android:drawablePadding">@dimen/_15sdp</item>
+
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">@dimen/_7sdp</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+    <!--btnSign-->
+    <style name="btn_Signin">
+        <item name="android:layout_width">@dimen/_130sdp</item>
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <!--txt_forget-->
+    <style name="txt_forget">
+        <item name="android:layout_width">@dimen/_130sdp</item>
+        <item name="android:layout_height">@dimen/_20sdp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:clickable">true</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <!--txt_signUP-->
+    <style name="txt_create">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/_20sdp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <!--SIGN UP FORM-->
+
+
+    <!--Sign_ed_Fname-->
+    <style name="sign_edFname">
+        <item name="android:layout_width">@dimen/_250sdp</item>
+        <item name="android:layout_height">@dimen/_35sdp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/edit_text_color</item>
+        <!--<item name="android:drawableLeft">@drawable/ic_first_name</item>-->
+        <item name="android:drawablePadding">@dimen/_15sdp</item>
+        <item name="android:inputType">text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">@dimen/_7sdp</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <!--signup_Lname-->
+    <style name="sign_edLname">
+        <item name="android:layout_width">@dimen/_250sdp</item>
+        <item name="android:layout_height">@dimen/_35sdp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/edit_text_color</item>
+        <!--<item name="android:drawableLeft">@drawable/ic_last_name</item>-->
+        <item name="android:drawablePadding">@dimen/_15sdp</item>
+        <item name="android:inputType">text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">@dimen/_7sdp</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <!--ed_Sign_email-->
+    <style name="edSignEmail">
+        <item name="android:layout_width">@dimen/_250sdp</item>
+        <item name="android:layout_height">@dimen/_35sdp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/edit_text_color</item>
+        <!--<item name="android:drawableLeft">@drawable/ic_email</item>-->
+        <item name="android:drawablePadding">@dimen/_15sdp</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">@dimen/_7sdp</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+    <!--ed_Sign_Password-->
+    <style name="edSignPassword">
+        <item name="android:layout_width">@dimen/_250sdp</item>
+        <item name="android:layout_height">@dimen/_35sdp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/_10sdp</item>
+        <item name="android:layout_marginTop">@dimen/_10sdp</item>
+        <item name="android:background">@color/edit_text_color</item>
+        <!--<item name="android:drawableLeft">@drawable/ic_lock</item>-->
+        <item name="android:drawablePadding">@dimen/_15sdp</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">@dimen/_7sdp</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+    <!--btn_SignUp-->
+    <style name="btn_Signup">
+        <item name="android:layout_width">@dimen/_130sdp</item>
+        <item name="android:layout_height">@dimen/_35sdp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="dashboard_custom_image">
+        <item name="android:layout_width">@dimen/_60sdp</item>
+        <item name="android:layout_height">@dimen/_60sdp</item>
+        <item name="android:layout_marginLeft">35dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="dashboard_custom_text">
+        <item name="android:layout_width">@dimen/_100sdp</item>
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="android:layout_marginLeft">@dimen/_20sdp</item>
+        <item name="android:layout_marginTop">@dimen/_10sdp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+    </style>
+
+
+    <!--Add_Event_Form-->
+    <!--ed_email-->
+    <style name="edEventName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginRight">@dimen/_2sdp</item>
+        <item name="android:layout_marginLeft">@dimen/_2sdp</item>
+        <item name="android:layout_marginTop">@dimen/_1sdp</item>
+        <item name="android:background">@color/edit_text_color</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">@dimen/_10sdp</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:textSize">@dimen/_11sdp</item>
+    </style>
+
+    <!--Custom Calender-->
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+    <!-- Application theme. -->
+
+    <style name="CalendarView"/>
+
+    <style name="CalendarView.MonthTitle">
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CalendarView.DayOfTheWeek">
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="CalendarView.DayOfTheMonth">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:minHeight">@dimen/minDayCellHeight</item>
+    </style>
+    //dialog
+
+    <style name="Custom_dialog" parent="android:Theme">
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+    </style>
+
+    <style name="WindowTitleBackground">
+        <item name="android:background">@color/titlebackgroundcolor</item>
+    </style>
+    //Add Event Dialog
+    <!--Add_cat_dialog-->
+    <style name="add_cat_dialog">
+        <item name="android:layout_width">@dimen/_250sdp</item>
+        <item name="android:layout_height">@dimen/_35sdp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:colorForeground">#f0f0</item>
+    </style>
+
+
+    <!--Content DashBoard-->
+    <style name="dashboard_main_listview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+
+    <style name="toolbar_parent_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_50sdp</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="appbar_style_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_50sdp</item>
+
+    </style>
+
+    <style name="Dialog_No_Border">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@color/transparent_color</item>
+    </style>
+
+    <style name="commonButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="ProgressDialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">@dimen/_11sdp</item>
+    </style>
+
+    <style name="custom_delete_dialog_animation">
+        <item name="android:windowEnterAnimation">@anim/slide_down_bounce</item>
+        <item name="android:windowExitAnimation">@anim/slide_down_exit_bounce</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+    <style name="custom_dialog_add_animation">
+        <item name="android:windowEnterAnimation">@anim/popin</item>
+        <item name="android:windowExitAnimation">@anim/popout</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+    <style name="custom_dialog_edit_animation">
+        <item name="android:windowEnterAnimation">@anim/push_left_in</item>
+        <item name="android:windowExitAnimation">@anim/push_left_out</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+    <style name="custom_dialog_delete_animation">
+        <item name="android:windowEnterAnimation">@anim/push_up_in</item>
+        <item name="android:windowExitAnimation">@anim/push_up_out</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+
+</resources>
+
+
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#323232</color>
+    <color name="colorAccent">#000000</color>
+    
+    <color name="splash_main">#324065</color>
+    <color name="white">#FFFFFF</color>
+    <color name="edit_text_color">#e6e6e6</color>
+    <color name="add_event_bg_color">#e6e6e6</color>
+    <color name="add_cat_dialog_bg">#e6e6e6</color>
+    <color name="black">#000000</color>
+    <color name="hint_color">#000000</color>
+    <color name="btn_white">#FFFFFF</color>
+    <color name="btn_black">#000000</color>
+    <color name="txt_forget">#000000</color>
+    <color name="txt_create">#000000</color>
+    <color name="orange_dark">#ffa500</color>
+    <color name="yellow">#ffff00</color>
+    <color name="blue_dark">#3b9bf4</color>
+    <color name="calener_bg">#EDEDED</color>
+    <color name="blue">#0000ff</color>
+    <color name="grey">#808080</color>
+
+<!--Calender-->
+    <color name="day_disabled_background_color">#F1F5F8</color>
+    <color name="day_disabled_text_color">#DEDEDE</color>
+    <color name="selected_day_background">#03A7E9</color>
+    <color name="current_day_of_month">#03A7E9</color>
+    <color name="dayOfWeekTextColor">#B7B7B7</color>
+    <color name="dayOfWeekInnerTextColor">#868686</color>
+
+    //dialog
+    <color name="titlebackgroundcolor">#3232CD</color>
+    <color name="titletextcolor">#FFFF00</color>
+    <color name="toolbar_text_color">#FFFFFF</color>
+    <color name="add_even_ed_bg">#e6e6e6</color>
+
+    //setting
+    <color name="conponet_setting_bg">#e6e6e6</color>
+    <color name="setting_font_color">#808080</color>
+
+    //switch
+    <color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+    <color name="custom_add_cat_bg_color">#e6e6e6</color>
+    <color name="tablayout_bg">#e6e6e6</color>
+    <color name="custom_add_income_add_cat_item_color">#EDEDED</color>
+    <color name="calender_activity_start_time_tv">#868686</color>
+    <color name="calender_activity_end_time_tv">#BBBBBB</color>
+
+
+
+    <color name="transparent_color">#00000000</color>
+    <color name="light_green">#00AA00</color>
+    <color name="grey1">#DCDCDC</color>
+    <color name="conponet_setting_bg_line">#DEDEDE</color>
+</resources>
