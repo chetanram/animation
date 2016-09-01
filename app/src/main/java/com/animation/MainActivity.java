@@ -2,6 +2,8 @@ package com.animation;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.net.wifi.WifiConfiguration;
+import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
@@ -21,9 +23,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         btn_alert= (Button) findViewById(R.id.btn_alert);
+        WifiManager wifiManager= (WifiManager) getSystemService(Context.WIFI_SERVICE);
+        WifiConfiguration wifiConfiguration=new WifiConfiguration();
+        wifiManager.updateNetwork(wifiConfiguration);
         btn_alert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 showAlertDialog(MainActivity.this,"Alert Dialog","This is alert dialog animation!");
             }
         });
